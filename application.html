@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>application</title>
+<link rel="stylesheet" href="css/style.default.css" type="text/css" />
+<link rel="stylesheet" href="prettify/prettify.css" type="text/css" />
+
+<script type="text/javascript" src="js/custom.js"></script>
+<!--[if lte IE 8]><script language="javascript" type="text/javascript" src="js/excanvas.min.js"></script><![endif]-->
+</head>
+
+<body>
+
+<div class="mainwrapper">
+	
+    <!-- START OF LEFT PANEL -->
+    <div class="leftpanel">
+    	
+        <div class="logopanel">
+        	<img src="images/logo.jpg" alt="Ruiru Logo">
+        </div><!--logopanel-->
+        
+        <div class="datewidget">Today is Monday, Jun 17, 2013 9:30am</div>
+    
+    	<div class="searchwidget">
+        	<form action="results.html" method="post">
+            	<div class="input-append">
+                    <input type="text" class="span2 search-query" placeholder="Search here...">
+                    <button type="submit" class="btn"><span class="icon-search"></span></button>
+                </div>
+            </form>
+        </div><!--searchwidget-->
+        
+        <div class="leftmenu">        
+            <ul class="nav nav-tabs nav-stacked">
+                <li class="nav-header">Main Navigation</li>
+                <li class="active"><a href="dashboard.html"><span class="icon-align-justify"></span> Dashboard</a></li>
+                <li><a href="new.html"><span class="icon-file"></span> New Application</a></li>
+                <li><a href=""><span class="icon-envelope"></span> Messages</a></li>
+            </ul>
+        </div><!--leftmenu-->
+
+        
+    </div><!--mainleft-->
+    <!-- END OF LEFT PANEL -->
+    
+    <!-- START OF RIGHT PANEL -->
+    <div class="rightpanel">
+    	<div class="headerpanel">
+        	<a href="" class="showmenu"></a>
+            
+            <div class="headerright">     
+
+                <div class="dropdown userinfo">
+                    <a class="dropdown-toggle" data-toggle="dropdown" data-target="#" href="/page.html"><span class=" iconsweets-speech3 iconsweets-white"></span> Instructions <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="instructions.html"><span class="iconsweets-imac"></span> Read Online</a></li>
+                        <li><a href=""><span class=" iconsweets-pdf2"></span> Download pdf doc</a></li>                                                
+                    </ul>
+                </div><!--dropdown-->      	
+                
+    			<div class="dropdown userinfo">
+                    <a class="dropdown-toggle" data-toggle="dropdown" data-target="#" href="/page.html">Hi, Admin! <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="editprofile.html"><span class="icon-edit"></span> Edit Profile</a></li>
+                        <li><a href=""><span class="icon-wrench"></span> Account Settings</a></li>                        
+                        <li class="divider"></li>
+                        <li><a href="index.html"><span class="icon-off"></span> Sign Out</a></li>
+                    </ul>
+                </div><!--dropdown-->
+    		
+            </div><!--headerright-->
+            
+    	</div><!--headerpanel-->
+        <div class="breadcrumbwidget">
+        	<ul class="skins">               
+                <li class="fixed"><a href="" class="skin-layout fixed"></a></li>
+                <li class="wide"><a href="" class="skin-layout wide"></a></li>
+            </ul><!--skins-->
+        	<ul class="breadcrumb">
+                <li><a href="dashboard.html">Home</a> <span class="divider">/</span></li>
+                <li class="active">Dashboard</li>
+            </ul>
+        </div><!--breadcrumbwidget-->
+      <div class="pagetitle">
+        	<h1>Ruiru Sub County</h1> <span>application</span> <!-- make same as page title -->
+        </div><!--pagetitle-->
+        
+        <div class="maincontent">
+        	<div class="contentinner content-dashboard">            	
+                
+                <div class="row-fluid">
+                	<div class="span8">                    	                        
+                        <h4 class="widgettitle">Curent Development Applications</h4>
+
+                        <table class="table table-bordered" id="dyntable">
+                            <thead>
+                                <tr>
+                                    <th>Application name</th>
+                                    <th>Town</th>
+                                    <th>Date Submitted</th>
+                                    <th>LR Number</th>
+                                    <th>Supporting Documents</th>
+                                  <!--  <th>View Uploads</th> -->
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="odd gradeA">
+                                    <td><a href="#">Mr John Karatu </a></td>
+                                    <td>Ruiru</td>
+                                    <td>25-Mar-2013 23:47:35</td>
+                                    <td>HJN-38938398</td>
+                                    <td><a href="#">View Documents</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="#">Mr Mike Kimani </a></td>
+                                    <td>Ruiru</td>
+                                    <td>11-Jun-2013 23:47:35</td>
+                                    <td>HJN-4654564</td>
+                                    <td><a href="#">View Documents</a></td>
+                                 </tr>
+                                 <tr class="odd gradeA">
+                                    <td><a href="#">Mr John Karatu </a></td>
+                                    <td>Ruiru</td>
+                                    <td>25-Mar-2013 23:47:35</td>
+                                    <td>HJN-38938398</td>
+                                    <td><a href="#">View Documents</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="#">Mr Mike Kimani </a></td>
+                                    <td>Ruiru</td>
+                                    <td>11-Jun-2013 23:47:35</td>
+                                    <td>HJN-4654564</td>
+                                    <td><a href="#">View Documents</a></td>
+                                 </tr>
+                                 <tr class="odd gradeA">
+                                    <td><a href="#">Mr John Karatu </a></td>
+                                    <td>Ruiru</td>
+                                    <td>25-Mar-2013 23:47:35</td>
+                                    <td>HJN-38938398</td>
+                                    <td><a href="#">View Documents</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="#">Mr Mike Kimani </a></td>
+                                    <td>Ruiru</td>
+                                    <td>11-Jun-2013 23:47:35</td>
+                                    <td>HJN-4654564</td>
+                                    <td><a href="#">View Documents</a></td>
+                                 </tr>
+                             </tbody>
+                        </table>
+                        
+                        
+                    </div><!--span8-->
+                    <div class="span4">
+                    	<h4 class="widgettitle nomargin">Recent Messages</h4>
+                        <div class="widgetcontent bordered">
+                            <a href="#">20/03/2013 | New Application From Lucy Ng'ang'a</a><br>
+                            <a href="#">20/03/2013 | Application Approved by Ton Clerk</a><br>
+                            <a href="#">20/03/2013 | Application Rejected </a><br>
+                            <a href="#">20/03/2013 | New Application From Kimani Minai</a>
+                        </div><!--widgetcontent-->
+                        
+                        <h4 class="widgettitle nomargin">Events this month</h4>
+                        <div class="widgetcontent">
+                        	<div id="calendar" class="widgetcalendar"></div>
+                        </div><!--widgetcontent-->
+                        
+                        
+                    </div><!--span4-->
+                </div><!--row-fluid-->
+            </div><!--contentinner-->
+        </div><!--maincontent-->
+        
+    </div><!--mainright-->
+    <!-- END OF RIGHT PANEL -->
+    
+    <div class="clearfix"></div>
+    
+    <div class="footer">
+        <div class="footerleft">&copy; Ruiru Sub County</div>
+        <div class="footerright"></div>
+    </div><!--footer-->
+
+    
+</div><!--mainwrapper-->
+
+<script type="text/javascript" src="prettify/prettify.js"></script>
+<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="js/jquery-migrate-1.1.1.min.js"></script>
+<script type="text/javascript" src="js/jquery-ui-1.9.2.min.js"></script>
+<script type="text/javascript" src="js/jquery.flot.min.js"></script>
+<script type="text/javascript" src="js/jquery.flot.resize.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/jquery.uniform.min.js"></script>
+<script type="text/javascript" src="js/bootstrap-fileupload.min.js"></script>
+<script type="text/javascript" src="js/jquery.smartWizard.min.js"></script>
+<script type="text/javascript" src="js/jquery.cookie.js"></script>
+<script type="text/javascript" src="js/custom.js"></script>
+<script type="text/javascript" src="js/forms.js"></script>
+
+<script type="text/javascript">
+jQuery(document).ready(function(){
+
+		// calendar
+		jQuery('#calendar').datepicker();
+
+
+});
+</script>
+</body>
+</html>
